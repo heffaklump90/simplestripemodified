@@ -5,6 +5,6 @@
 			<h2>$SiteConfig.Tagline</h2>
 		<% end_if %>
 	</hgroup>
-	
+	<div class="clear"></div>
 	<% include Navigation %>
 </header>

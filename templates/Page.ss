@@ -4,7 +4,6 @@
 	<meta charset="utf-8" />
 	<% base_tag %>
 	<% if MetaDescription %><meta name="description" http-equiv="description" content="$MetaDescription" /><% end_if %>
-	<meta name="generator" content="SilverStripe - http://www.silverstripe.org" />
 	<title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
 	<link rel="shortcut icon" href="/favicon.ico" />
 	<link rel="stylesheet" href="themes/simplestripe/css/layout.css" type="text/css" media="screen" />
@@ -42,8 +41,7 @@
 		<% include Footer %>
 		
 	</div>
-	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
 	<script src="themes/simplestripe/js/plugins/jquery.smooth-scroll.js" type="text/javascript" charset="utf-8"></script>
 	<script src="themes/simplestripe/js/global.js" type="text/javascript" charset="utf-8"></script>
 	</body>
