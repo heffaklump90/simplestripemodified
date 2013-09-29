@@ -45,7 +45,7 @@ body {
 	font-size: 1.4em; 
 	line-height: 1.4em;
 	font-family: "Trebuchet MS", Helvetica, Verdana, Sans-serif;
-	background:#E7E7E2 url(../images/main_bg.png) repeat-x left top;
+	background: #FFF;
 }
 
 article, aside, dialog, figure, footer, header, hgroup, nav, section {
@@ -97,7 +97,6 @@ li {
 #content {
 	display: block;
 	background-color:#FFFFFF;
-	border:1px solid #D2D2CF;
 	overflow: hidden;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -124,6 +123,8 @@ header {
 	overflow: hidden;
 	margin: 10px 0;
 	position: relative;
+/*	background-image: url("/themes/simplestripe/images/nylogo.png");*/
+
 }
 
 header hgroup {
@@ -150,8 +151,8 @@ header hgroup h2 {
 }
 
 header nav {
-	float: right;
-	overflow: hidden;
+        float: right;
+    	overflow: hidden;
 	font-size: 1.3em;
 	line-height: 1.2em;
 }

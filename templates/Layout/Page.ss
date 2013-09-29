@@ -1,5 +1,5 @@
 <div id="pageContent">
-	<section class="grid_8">
+	<section class="grid_12">
 		
 		<h1>$Title</h1>
 			
@@ -9,7 +9,4 @@
 		<% if PageComments %><section>$PageComments</section><% end_if %>
 	</section>
 
-	<aside class="grid_4">
-		<% include SideBar %>
-	</aside>
 </div>
