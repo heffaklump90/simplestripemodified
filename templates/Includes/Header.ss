@@ -1,4 +1,4 @@
 <header>
-	<img src="themes/simplestripe/images/nylogo.png" >
+	<img src="assets/backgroundimages/logo.png">
 	<% include Navigation %>
 </header>
