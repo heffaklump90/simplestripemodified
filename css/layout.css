@@ -172,7 +172,7 @@ header nav ul li a, header nav ul li a:link {
 	display: block;
 }
 
-header nav ul li current{
+header nav ul li a.current{
 	border-bottom: 1px solid #D2D2CF;
 }
 
