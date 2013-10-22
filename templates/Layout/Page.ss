@@ -1,8 +1,6 @@
 <div id="pageContent">
 	<section class="grid_12">
 		
-		<h1>$Title</h1>
-			
 		$Content
 		$Form
 		
