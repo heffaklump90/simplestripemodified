@@ -31,6 +31,14 @@ Release: 10/01/2010
 @import url("typography.css");
 @import url("form.css");
 
+/* ******************************* */
+/* Special font                    */
+/* ******************************* */
+@font-face
+{
+	font-family: anetaradonFont;
+	src: url("../fonts/PrestigeEliteStd-Bd.woff");
+}
 
 /* ******************************* */
 /* GENERAL                         */
@@ -44,7 +52,7 @@ body {
 	color: #8B8C8C; 
 	font-size: 1.4em; 
 	line-height: 1.4em;
-	font-family: "Trebuchet MS", Helvetica, Verdana, Sans-serif;
+	font-family: anetaradonFont, "Trebuchet MS", Helvetica, Verdana, Sans-serif;
 	background: #FFF;
 }
 
