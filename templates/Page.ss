@@ -5,7 +5,7 @@
 	<% base_tag %>
 	<% if MetaDescription %><meta name="description" http-equiv="description" content="$MetaDescription" /><% end_if %>
 	<title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
-	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="shortcut icon" href="/favicon.png" />
 	<link rel="stylesheet" href="themes/simplestripe/css/layout.css" type="text/css" media="screen" />
 	
 	<!--[if IE 6]>
