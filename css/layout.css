@@ -61,8 +61,18 @@ article, aside, dialog, figure, footer, header, hgroup, nav, section {
 }
 
 a:link, a:visited, a:active {
-color:#4F91B0;
-text-decoration:none;
+	color:#4F91B0;
+	text-decoration:none;
+}
+
+ul li a:link, ul li a:visited, ul li a:active {
+	color:#000000;
+	text-decoration:none;
+}
+
+ul li a:hover {
+	color: #4F91B0;
+	text-decoration: none; 
 }
 
 a:hover {
@@ -189,11 +199,11 @@ header nav ul li a.current{
 /***************************/
 footer {
 	clear: both;
-	overflow: hidden;
+	overflow: visible;
 	padding: 20px auto 20px auto;
 	font-size: 0.9em;
 	text-align: center;
-	color: #424242;
+	color: #999999;
 }
 
 #navFooter ul {
