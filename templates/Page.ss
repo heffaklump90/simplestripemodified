@@ -4,6 +4,7 @@
 	<meta charset="utf-8" />
 	<% base_tag %>
 	<% if MetaDescription %><meta name="description" http-equiv="description" content="$MetaDescription" /><% end_if %>
+	<meta property="fb:admins" content="100001327178089" />
 	<title><% if MetaTitle %>$MetaTitle<% else %>$Title<% end_if %> &raquo; $SiteConfig.Title</title>
 	<link rel="shortcut icon" href="/favicon.png" />
 	<link rel="stylesheet" href="themes/simplestripe/css/layout.css" type="text/css" media="screen" />
