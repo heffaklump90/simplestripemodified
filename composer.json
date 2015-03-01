@@ -1,0 +1,9 @@
+{
+	"name": "heffaklump90/simplestripe",
+	"descriptionm": "barebone silverstripe theme",
+	"type": "silverstripe-template",
+	"require": {
+		"composer/installers": "*",
+		"silverstripe/framework": ">=3.0"
+	}
+}
