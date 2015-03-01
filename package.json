@@ -1,8 +1,0 @@
-{
-	"packages" : {
-		"heffaklump90/simplestripemodified": {
-			"dev-master": { @composer.json },
-			"0.0.1": { @composer.json }
-		}
-	}
-}
